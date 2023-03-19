@@ -1,0 +1,45 @@
+/* landing-page css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links {
+    display: flex;
+    font-size: 18px;
+    /*color: #E5E7EB;*/
+    gap: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    padding: 16px;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
