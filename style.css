@@ -3,10 +3,11 @@
 body {
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
+    flex-wrap: wrap;
 }
 
-.header {
+.header, .awesome-banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,11 +16,11 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 .links {
     display: flex;
     font-size: 18px;
-    /*color: #E5E7EB;*/
     gap: 16px;
 }
 
@@ -29,17 +30,135 @@ ul {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
+}
+
+a, .awesome-info {
+    color: #E5E7EB;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     color: #F9FAF8;
-    padding: 16px;
+    padding: 32px;
 }
 
-.header, .footer {
+.header, .footer,
+.awesome-banner {
     background-color: #1F2937;
 }
 
+.awesome-banner {
+    padding: 75px;
+}
+
+.awesome-header {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.awesome {
+    width: 400px;
+    flex-shrink: 1 0 0;
+}
+
+
+.sign-up {
+    color: white;
+    font-weight: bold;
+    background: royalblue;
+    border: 1px solid royalblue;
+    padding: 5px 25px;
+    border-radius: 8px;
+    margin: 8px 0px;
+}
+
+.awesome-banner img {
+    width: 475px;
+    height: auto;
+}
+
+.four img {
+    width: 175px;
+    height: 175px;
+    border: 3px solid royalblue;
+    border-radius: 8px;
+}
+
+.top-four {
+    text-align: center;
+    padding: 42px;
+}
+
+.top-title {
+    font-size: 36px;
+    font-weight: bolder;
+    
+}
+.four {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 30px;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.grey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 75px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    
+}
+
+.quote, .rdc {
+    width: 700px;
+}
+
+.grey .rdc {
+    text-align: right;
+}
+
+.last {
+    padding: 75px 200px;
+}
+
+.blue-banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    padding: 36px;
+}
+
+.blue-head, .blue-signup {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.blue-head {
+    font-size: 20px;
+}
+
+.blue-info {
+    color: white;
+}
+
+.blue-signup {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding: 4px 26px;
+}
